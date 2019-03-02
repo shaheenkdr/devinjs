@@ -203,7 +203,7 @@
       if (!this.srcImage && options.imageId) {
         this.srcImage = document.getElementById(options.imageId);
       }
-      this.imageUrl = 'https://raw.githubusercontent.com/shaheenkdr/Portfolio/master/logo.png';
+      this.imageUrl = 'https://raw.githubusercontent.com/shaheenkdr/devinjs/master/logo.png';
       this.image = document.createElement('img');
       this.wrapperElement = options.wrapperElement || this.srcImage.parentElement;
       this.image.onload = () => this.emit('imageLoaded', options);
